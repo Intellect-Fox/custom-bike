@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.button {
+    display: FLEX;
+    align-items: center;
+    justify-content: center;
+    min-width:192px;
+    height:40px;
+    padding: 0 16px;
+    font-size: 16px;
+    color: white;
+    background-color:#ff9300;
+    text-decoration: none;
+    white-space: nowrap;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.button:hover {
+  background-color: #f57800;
+}
+
+.button.disabled {
+  color: #333333;
+  background-color:#FAFAFA;
+}
+
+.button.disabled:hover {
+  background-color: #e6e6e6;}
+
+.header{color:#fefefe;background-color:#333333;}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.header_logo {
+  font-size: 18px;
+}
+
+.basket {
+    text-align: right;
+}
+
+.basket__count {
+  padding-right: 20px;
+  font-size: 14px;
+  position: relative;
+}
+
+.basket__counter {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: #ff9300;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
+
+.basket__amount {
+  font-size: 12px;
+}
+
+.catalog {
+  background-color: #cecece;
+  min-height: calc(100vh - 120px);
+  overflow: hidden;
+}
+
+.product {
+  display: flex;
+  height: 192px;
+  margin: 24px 0;
+  padding: 16px;
+  background-color: #fefefe;
+  border-radius: 4px;
+}
+
+.product__info-wrap {
+  display: flex;
+}
+
+.product__image {
+  width: 20%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product__info {
+  align-self: center;
+  margin-left: 16px;
+}
+
+.product__name {
+  margin-bottom: 14px;
+}
+
+.product__description {
+  padding: 0;
+  list-style: none;
+}
+
+.product__price-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.product__price {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font-size: 12px;
+    color: #fefefe;
+    background-color: #333333;
+  }
