@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Best Shop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <div class="header_logo">The Best Shop</div>
+      <div class="basket">
+        <div class="basket__count">
+          <span>Basket</span>
+          <span id="counter" class="basket__counter">0</span>
+        </div>
+        <div class="basket__amount">
+          <span>Amount: </span>
+          <b id="amount">$0</b>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<section class="catalog">
+  <div class="container">
+    <div class="product">
+      <div class="product__info-wrap">
+        <img src="./images/air.jpg" alt="MacBook Air" class="product__image">
+        <div class="product__info">
+          <h3 class="product__name">MacBook Air</h3>
+          <ul class="product__description">
+            <li>Дисплей Retina с технологией True Tone</li>
+            <li>4‑ядерный процессор Intel Core i5 10‑го поколения</li>
+            <li>Графический процессор Intel Iris Plus Graphics</li>
+          </ul>
+        </div>
+      </div>
+      <div class="product__price-wrap">
+        <span class="product__price">$1.299</span>
+        <a
+          href='#'
+          class="button js-product-button"
+          data-id="0fc87bc9-f2b7-47ab-aa04-03c1f9893cc4"
+          data-price="1299"
+        >
+          Add to Basket
+        </a>
+      </div>
+    </div>
+    <div class="product">
+      <div class="product__info-wrap">
+        <img src="./images/macbook-pro-13.jpg" alt="MacBook Air" class="product__image">
+        <div class="product__info">
+          <h3 class="product__name">MacBook Pro’13</h3>
+          <ul class="product__description">
+            <li>Процессор 2,0 ГГц, 4-ядерный Intel Core i5</li>
+            <li>Ускорение Turbo Boost до 3,8 ГГц</li>
+            <li>Графический процессор Intel Iris Plus Graphics</li>
+          </ul>
+        </div>
+      </div>
+      <div class="product__price-wrap">
+        <span class="product__price">$1.799</span>
+        <a
+          href='#'
+          class="button js-product-button"
+          data-id="bd41f87a-9c8e-4c6a-8dde-575ce978ec87"
+          data-price="1799"
+        >Add to Basket</a>
+      </div>
+    </div>
+    <div class="product">
+      <div class="product__info-wrap">
+        <img src="./images/macbook-pro-15.jpg" alt="MacBook Air" class="product__image">
+        <div class="product__info">
+          <h3 class="product__name">MacBook Pro’15</h3>
+          <ul class="product__description">
+            <li>Процессор 2,3 ГГц, 8‑ядерный, Intel Core i9</li>
+            <li>Ускорение Turbo Boost до 4,8 ГГц</li>
+            <li>Графический процессор AMD Radeon Pro 5500M, 4 ГБ</li>
+          </ul>
+        </div>
+      </div>
+      <div class="product__price-wrap">
+        <span class="product__price">$2.799</span>
+        <a
+          href='#'
+          class="button js-product-button"
+          data-id="92574c42-a32a-4b88-8a83-54237dfb3298"
+          data-price="2799"
+        >
+          Add to Basket
+        </a>
+      </div>
+    </div>
+    <div class="product">
+      <div class="product__info-wrap">
+        <img src="imac.jpg" alt="MacBook Air" class="product__image">
+        <div class="product__info">
+          <h3 class="product__name">iMac’27</h3>
+          <ul class="product__description">
+            <li>Процессор 3,8 ГГц, 8‑ядерный Intel Core i7</li>
+            <li>Ускорение Turbo Boost до 5,0 ГГц</li>
+            <li>8 ГБ памяти DDR4 2666 МГц</li>
+          </ul>
+        </div>
+      </div>
+      <div class="product__price-wrap">
+        <span class="product__price">$2.299</span>
+        <a
+          href='#'
+          class="button js-product-button"
+          data-id="179f05f1-5bbb-4b57-bf35-cdd0655dfd98"
+          data-price="2299"
+        >Add to Basket</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p class="footer__text">&copy; Intellect Fox, 2021</p>
+</footer>
+<script src="./main.js"></script>
+</body>
+</html>
